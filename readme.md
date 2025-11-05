@@ -40,23 +40,27 @@ The recommendation system consists of four main components:
 
 ### Prerequisites
 - Python 3.x
-- PyTorch
-- Flask
-- Pandas
-- Sentence Transformers
-- PyTorch Geometric
-- Torchvision
-- PIL
+- Flask 2.0.3
+- Werkzeug 2.0.3
+- Pandas 1.3.4
+- NumPy 1.21.4
+- PyTorch 1.13.0
+- Transformers 4.28.1
+- Torchvision 0.14.0
+- Sentence-Transformers 2.2.2
+- PyTorch Geometric 2.3.1
+- Scikit-learn 1.0.2
+- Huggingface-hub 0.25.0
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mounimRhouli/E-Commerce-Personalized-Product-Recommender.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd er
+   cd E-Commerce-Personalized-Product-Recommender
    ```
 
 3. Install the required packages:
